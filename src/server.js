@@ -10,7 +10,7 @@ const corsOptions ={
 }
 
 app.use(cors(corsOptions))
-mongo.connect('mongodb+srv://appDB:Banglore1@cluster0.opser.mongodb.net/MERN?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, },)
+mongo.connect('mongodb+srv://Enter your MongoDB connection string here', { useNewUrlParser: true, useUnifiedTopology: true, },)
 .then((result)=>console.log("successful"))
 .catch((err)=>console.log(err));
 const Schema=mongo.Schema;
@@ -76,7 +76,7 @@ app.get('/',(req,res)=>{
 app.post('/results',(req,res)=>{
     let query=req.body.search;
     console.log(query)
-    request('https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=143132d7&app_key=d4976b2896f0050cefb44df7b113be53&results_per_page=20&what='+query+'&content-type=application/json',(error,response,body)=>{
+    request('https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=&app_key=&results_per_page=20&what='+query+'&content-type=application/json',(error,response,body)=>{
         if(error){
             console.log(error)
         }
