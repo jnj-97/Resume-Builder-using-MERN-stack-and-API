@@ -1,0 +1,12 @@
+.Home__foot{
+position:relative;
+  width:100%;
+  background-color:#F917BE;
+  color:white;
+  bottom:0;
+  text-align:center;
+  font-family:Georgia, serif;
+  font-style:italic;
+  font-size:medium;
+  font-weight: bolder;
+}
