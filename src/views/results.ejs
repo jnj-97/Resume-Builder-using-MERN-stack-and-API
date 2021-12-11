@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1 id="title"><%=searchQuery.toUpperCase()%></h1>
+    <div>
+        <% data['results'].forEach((job)=>{ %>
+            <div class="card"">
+                <h2><%=job['title']%> upto &#xa3; <%=job['salary_max']%></h2>
+                <h4><%= job['location'].area.slice(0,2)%></h4>
+                <p>Company: <i><%= job['company']['display_name']%></i></p>
+                <p class="description"><%= job['description']%></p>
+                <a href=<%= job['redirect_url']%>>View Job</a>
+            </div>
+        <% }) %>
+    </div>
+</body>
+</html>
