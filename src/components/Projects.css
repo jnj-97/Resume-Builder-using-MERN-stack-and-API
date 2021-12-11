@@ -1,0 +1,43 @@
+.projects__first > h3 {
+  margin-top: 50%;
+  flex: 3;
+}
+
+.projects__row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 8px;
+}
+
+.projects__row__year {
+  width: 160px;
+  font-size: 12px;
+}
+
+.projects__row__details > p:first-child {
+  margin-bottom: 4px;
+}
+
+.projects__row__details > p {
+  margin-bottom: 0;
+}
+
+.projects__row__details {
+  flex: 1;
+}
+
+.projects__second {
+  flex: 3;
+}
+.projects__second table {
+  margin-right: 0;
+  margin-left: auto;
+  width: 100%;
+}
+
+.projects__course {
+  font-weight: 700;
+}
+.projects__courseLink {
+  font-weight: bold;
+}

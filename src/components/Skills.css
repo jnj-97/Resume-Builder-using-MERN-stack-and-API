@@ -1,0 +1,30 @@
+.skills__first > h3 {
+  margin-top: 50%;
+  flex: 3;
+}
+
+.skills__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills__row__programming {
+  font-weight: 700;
+  width: 160px;
+}
+
+.skills__second {
+  flex: 3;
+}
+.skills__second table {
+  margin-right: 0;
+  margin-left: auto;
+  width: 100%;
+}
+
+.skills__course {
+  font-weight: 700;
+}
+#row1 {
+  width: 40%;
+}
