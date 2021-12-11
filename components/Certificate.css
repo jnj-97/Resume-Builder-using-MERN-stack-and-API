@@ -1,0 +1,19 @@
+.certificate__first > h3 {
+  margin-top: 80%;
+  flex: 3;
+}
+
+/* .certificate__second {
+  background-color: aqua;
+  text-align: left; 
+  flex: 3;
+} */
+
+.certificate__details {
+  margin-top: 1em;
+  flex-direction: column;
+}
+.certificate__details > p {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}

@@ -1,0 +1,43 @@
+.educational__first {
+  margin-right: 7.4rem;
+}
+.educational__first > h3 {
+  margin-top: 100%;
+  width: 100%;
+}
+.educational__row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding-bottom: 8px;
+}
+
+.educational__row__year {
+  width: 160px;
+}
+
+.educational__second {
+  flex: 3;
+}
+.educational__second table {
+  margin-right: 0;
+  margin-left: auto;
+  text-align: center;
+}
+
+.educational__course {
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.educational__schoolCollege {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+#education__title {
+  width: 800px;
+}
+.educational__row__details > p:first-child {
+  margin-bottom: 4px;
+}
